@@ -1,0 +1,22 @@
+.dogs {
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	justify-content: flex-start;
+
+	flex-wrap: wrap;
+
+	[data-image] {
+		margin: 4px;
+		padding: 8px;
+
+		border: 0;
+		border-radius: 8px;
+		background-color: rgba(255, 87, 51, 0.6);
+		cursor: pointer;
+
+		&:hover {
+			background-color: rgba(255, 87, 51, 1);
+		}
+	}
+}
